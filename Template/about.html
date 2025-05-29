@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% block class %}class="sub_page"{% endblock class %}
+
+{% block about_status %}active{% endblock about_status %}
+
+{% block main %}
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container  ">
+
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="{% static 'images/about-img.png' %} " alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                We Are EJ's Bite & Delight
+              </h2>
+            </div>
+           
+              
+              <div>
+                <p>
+                  where every bite is an adventure in flavor! We’re not just your average fast food joint—we’re the ultimate destination for burger lovers, fry fanatics, and pizza enthusiasts. At EJ's, we believe that food should be fun, satisfying, and absolutely delicious. That’s why we craft each burger with the juiciest patties, stack them high with your favorite toppings, and pair them with fries that are golden, crispy, and seasoned to perfection.
+              </p>
+             </div>
+             
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+{% endblock main %}
